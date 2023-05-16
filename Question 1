@@ -1,0 +1,5 @@
+#Question 1
+number_of_minutes = 75  # assign 75 to variable number_of_minutes
+hours = number_of_minutes // 60  # integer division to get the number of hours
+minutes = number_of_minutes % 60 # module operator to get the remaining minutes
+print(f"{number_of_minutes} minutes is {hours} hour and {minutes} minute")
